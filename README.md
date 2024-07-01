@@ -149,4 +149,4 @@ To get a copy of this project up and running on your local machine, follow these
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Dariusking20/loan-approval-prediction.git
+   git clone https://github.com/Dariusking20/Loan_Data/loan-approval-prediction.git
