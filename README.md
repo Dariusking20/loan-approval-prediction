@@ -25,7 +25,7 @@ This segment visualizes the distribution of categorical data in the dataset usin
 
 The result is a series of pie charts that provide a clear and concise view of the distribution of each categorical variable.
 
-![Categorical Data Distribution](images/categorical_data_distribution.png)
+![Categorical Data Distribution](Loan_Data/categorical_data_distribution.png)
 </div>
 
 <div class="alert alert-block alert-info">
@@ -40,7 +40,7 @@ The result is a series of pie charts that provide a clear and concise view of th
   <li><strong>Visualization:</strong> We create a bar plot to visualize the percentage of missing values for each column, making it easier to identify which columns have significant missing data.</li>
 </ul>
 
-![Missing Values by Column](images/missing_values_by_column.png)
+![Missing Values by Column](Loan_Data/missing_values_by_columns.png)
 </div>
 
 <div class="alert alert-block alert-info">
@@ -57,13 +57,10 @@ This section includes the training and evaluation of different machine learning 
   <li><strong>ROC-AUC Score:</strong> Area under the Receiver Operating Characteristic curve, indicating the ability to distinguish between classes.</li>
 </ul>
 
-![Model Evaluation](images/model_evaluation.png)
 </div>
 <div class="alert alert-block alert-info">
 
 ## Evaluating Random Forest
-
-### Evaluation Metrics:
 
 - **Precision:** Random Forest achieved a precision of 0.7647, indicating 76.47% accuracy in predicting loan approvals.
 
@@ -83,8 +80,6 @@ This section includes the training and evaluation of different machine learning 
 This matrix provides insight into correct and incorrect predictions made by the Random Forest model.
 
 ## Evaluating Support Vector Machine
-
-### Evaluation Metrics:
 
 - **Precision:** Support Vector Machine (SVM) achieved a precision of 0.7619, accurately predicting 76.19% of loan approvals.
 
